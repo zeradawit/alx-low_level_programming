@@ -1,8 +1,9 @@
-#include <stdio>
+#include <stdio.h>
 
 int main (void)
 {
-puts (("Programming is like building a multilingual puzzle));
+char *string = "\"Programming is like building a multilingual puzzle\n";
+puts (string);
 return (0);
 }
 
