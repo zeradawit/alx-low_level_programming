@@ -8,8 +8,7 @@
 int main(void)
 {
 int n;
-srand(time(0));
-n = rand();
+n = rand(100);
 
 if (n < 0)
 {
