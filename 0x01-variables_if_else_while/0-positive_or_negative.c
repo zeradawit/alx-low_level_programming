@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<time.h>
 /**
    * main - Entry point
@@ -8,7 +9,7 @@
 int main(void)
 {
 int n;
-n = rand(100);
+n = rand();
 
 if (n < 0)
 {
