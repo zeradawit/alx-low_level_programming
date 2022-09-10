@@ -7,11 +7,10 @@
       */
 int main(void)
 {
-	char n = 0;
-	char last = n % 10;
+	char n = 1;
 
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d is %d and is ", n, last);
+	printf("Last digit of %d is %d and is ", n, n % 10);
 	if (n == 0)
 	{
 		printf("0\n");
