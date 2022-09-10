@@ -10,17 +10,11 @@ int main(void)
 
 	for (; ch <= 'z'; ch++)
 	{
-	if (ch == 'p')	
+		if (ch != 'e' && ch != 'q')
 	{
-		ch = "\p";
-	}
-	else if (ch == 'q')
-	{
-		ch = "\q";
-	}
 		putchar(ch);
-		putchar('\n');
 	}
+	}
+	putchar('\n');
 	return (0);
 }
-
