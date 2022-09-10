@@ -7,7 +7,7 @@
       */
 int main(void)
 {
-	char n;
+	char n = 0;
 	char last = n % 10;
 
 	n = rand() - RAND_MAX / 2;
